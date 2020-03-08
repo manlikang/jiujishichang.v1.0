@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: registry-center
+eureka:
+  instance:
+    prefer-ip-address: false
+    hostname: registry
+  client:
+    register-with-eureka: false
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://127.0.0.1:10000/eureka/
+server:
+  port: 10000
+

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: account-service
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/jiujishichang
+server:
+  port: 9901
+  servlet:
+    context-path: /user
